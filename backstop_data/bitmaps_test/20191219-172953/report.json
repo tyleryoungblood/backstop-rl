@@ -1,0 +1,205 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.24",
+          "analysisTime": 19
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Thomas_Harris_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.16",
+          "analysisTime": 34
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Thomas_Harris_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.51",
+          "analysisTime": 65
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.10",
+          "analysisTime": 42
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "4.30",
+          "analysisTime": 113
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "4.86",
+          "analysisTime": 337
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "4.06",
+          "analysisTime": 278
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20191219-172953/richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.82",
+          "analysisTime": 307
+        },
+        "diffImage": "../bitmaps_test/20191219-172953/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "richland"
+}

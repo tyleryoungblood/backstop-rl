@@ -1,0 +1,335 @@
+{
+  "id": "richland",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "label": "tablet-vertical",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "label": "desktop",
+      "width": 1200,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Homepage",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "viewports": [
+        {
+          "label": "phone",
+          "width": 320,
+          "height": 2000
+        },
+        {
+          "label": "tablet",
+          "width": 1024,
+          "height": 3000
+        },
+        {
+          "label": "tablet-vertical",
+          "width": 768,
+          "height": 3000
+        },
+        {
+          "label": "desktop",
+          "width": 1200,
+          "height": 3000
+        }
+      ],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/",
+      "referenceUrl": "https://www.richlandlibrary.com/"
+    },
+    {
+      "label": "components",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io",
+      "referenceUrl": "https://www.richlandlibrary.com/"
+    },
+    {
+      "label": "Search: Thomas Harris",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/catalog?q=Thomas+Harris&page=0",
+      "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+      "readySelector": ".library-item__title",
+      "delay": 5000
+    },
+    {
+      "label": "Search: Where the Crawdads Sing",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+      "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0"
+    },
+    {
+      "label": "Search: eAudiobook - Where the Crawdads Sing",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/catalog/detail/1635789?return=/catalog?q=where%20the%20crawdads%20sing&page=0&TOM=aeb",
+      "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1635789?return=/catalog?q=where+the+crawdads+sing&TOM=aeb&page=0"
+    },
+    {
+      "label": "Board of Trustees",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/board-trustees",
+      "referenceUrl": "https://www.richlandlibrary.com/board-trustees"
+    },
+    {
+      "label": "Policies List",
+      "removeSelectors": [
+        "#block-views-block-announcements-block-1-2",
+        ".teaser__image"
+      ],
+      "url": "https://dev-richland-site.pantheonsite.io/policies",
+      "referenceUrl": "https://www.richlandlibrary.com/policies"
+    },
+    {
+      "label": "Policies - Borrowing Guidelines",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/borrowing-guidelines",
+      "referenceUrl": "https://www.richlandlibrary.com/borrowing-guidelines"
+    },
+    {
+      "label": "Policies - Room Reservations",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/room-reservations",
+      "referenceUrl": "https://www.richlandlibrary.com/room-reservations"
+    },
+    {
+      "label": "Policies - Code of Conduct",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/code-conduct-0",
+      "referenceUrl": "https://www.richlandlibrary.com/code-conduct-0"
+    },
+    {
+      "label": "Form - Suggest a Title",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/request-purchase",
+      "referenceUrl": "https://www.richlandlibrary.com/request-purchase"
+    },
+    {
+      "label": "Form - Artist in Residence Application",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/artist-in-residence-application",
+      "referenceUrl": "https://www.richlandlibrary.com/form/artist-in-residence-application"
+    },
+    {
+      "label": "Form - Become a Beta Tester",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/become-a-beta-tester",
+      "referenceUrl": "https://www.richlandlibrary.com/form/become-a-beta-tester"
+    },
+    {
+      "label": "Form - Book a Learning Coach",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/book-learning-coach",
+      "referenceUrl": "https://www.richlandlibrary.com/form/book-learning-coach"
+    },
+    {
+      "label": "Form - Book a Tour",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/book-tour",
+      "referenceUrl": "https://www.richlandlibrary.com/form/book-tour"
+    },
+    {
+      "label": "Form - Change My Information",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/change-info",
+      "referenceUrl": "https://www.richlandlibrary.com/form/change-info"
+    },
+    {
+      "label": "Form - Contact",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/contact",
+      "referenceUrl": "https://www.richlandlibrary.com/form/contact"
+    },
+    {
+      "label": "Form - Exhibition Gallery",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/exhibiting-gallery",
+      "referenceUrl": "https://www.richlandlibrary.com/form/exhibiting-gallery"
+    },
+    {
+      "label": "Form - Kids in Print",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/kids-print",
+      "referenceUrl": "https://www.richlandlibrary.com/form/kids-print"
+    },
+    {
+      "label": "Form - Outreach",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/outreach-event-request-form",
+      "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form"
+    },
+    {
+      "label": "Form - Renew Lirbary Card",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/renew-library-card",
+      "referenceUrl": "https://www.richlandlibrary.com/form/renew-library-card"
+    },
+    {
+      "label": "Form - Request Copies",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/request-copies",
+      "referenceUrl": "https://www.richlandlibrary.com/form/request-copies"
+    },
+    {
+      "label": "Form - Social Worker Assistance",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/social-worker-assistance",
+      "referenceUrl": "https://www.richlandlibrary.com/form/social-worker-assistance"
+    },
+    {
+      "label": "Form - Spanish Library Card Application",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/solicitud-tarjeta-biblioteca",
+      "referenceUrl": "https://www.richlandlibrary.com/form/solicitud-tarjeta-biblioteca"
+    },
+    {
+      "label": "Form - Access Mag Submissions",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/submissions",
+      "referenceUrl": "https://www.richlandlibrary.com/form/submissions"
+    },
+    {
+      "label": "Form - Submit a Club",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/submit-club-org",
+      "referenceUrl": "https://www.richlandlibrary.com/form/submit-club-org"
+    },
+    {
+      "label": "Form - Summer Volunteer Application",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/summer-volunteer-application",
+      "referenceUrl": "https://www.richlandlibrary.com/form/summer-volunteer-application"
+    },
+    {
+      "label": "Form - Volunteer Application",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/volunteer-application",
+      "referenceUrl": "https://www.richlandlibrary.com/form/volunteer-application"
+    },
+    {
+      "label": "Form - Volunteer Teens Kids",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/form/teens-kids-volunteer-application",
+      "referenceUrl": "https://www.richlandlibrary.com/form/teens-kids-volunteer-application"
+    },
+    {
+      "label": "Form - Invite Us to Your Event",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/services/invite-us-your-event",
+      "referenceUrl": "https://www.richlandlibrary.com/services/invite-us-your-event"
+    },
+    {
+      "label": "Form - Polaris Auto Register",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/polaris-auto-register",
+      "referenceUrl": "https://www.richlandlibrary.com/polaris-auto-register"
+    },
+    {
+      "label": "Form - Entrepreneur in Residence",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "url": "https://dev-richland-site.pantheonsite.io/user/login?destination=/webform/entrepreneur_in_residence",
+      "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/entrepreneur_in_residence"
+    },
+    {
+      "label": "Form - Event Filtering",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/18310/manage/events",
+      "referenceUrl": "https://www.richlandlibrary.com/user/18310/manage/events"
+    },
+    {
+      "label": "Form - Crafterpreneurship",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/login?destination=/webform/etsy_crafterpreneurship_student",
+      "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_student"
+    },
+    {
+      "label": "Form - Etsy",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+      "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher"
+    },
+    {
+      "label": "Form - Library Card Registration - Non Resident",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/login?destination=/webform/library_card_reg_non_resident",
+      "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/library_card_reg_non_resident"
+    },
+    {
+      "label": "Form - Program Proposal",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/form/outreach-event-request-form",
+      "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form"
+    },
+    {
+      "label": "Form - Request Obit",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/login?destination=/webform/request_an_obituary",
+      "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/request_an_obituary"
+    },
+    {
+      "label": "Checked Out Page",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/18998/checked-out",
+      "referenceUrl": "https://www.richlandlibrary.com/user/18998/checked-out"
+    },
+    {
+      "label": "Holds Page",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/18998/holds",
+      "referenceUrl": "https://www.richlandlibrary.com/user/18998/holds"
+    },
+    {
+      "label": "Lists Page",
+      "removeSelectors": ["#block-views-block-announcements-block-1-2"],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://dev-richland-site.pantheonsite.io/user/18998/my-lists",
+      "referenceUrl": "https://www.richlandlibrary.com/user/18998/my-lists",
+      "delay": 10000
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppet",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

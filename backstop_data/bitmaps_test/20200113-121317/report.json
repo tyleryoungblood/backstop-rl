@@ -1,0 +1,3816 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Homepage_0_document_0_phone.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "misMatchPercentage": "36.74",
+          "analysisTime": 1432
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Homepage_0_document_1_tablet.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -56
+          },
+          "misMatchPercentage": "34.41",
+          "analysisTime": 1525
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Homepage_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Homepage_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Homepage_0_document_2_tablet-vertical.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "32.94",
+          "analysisTime": 1698
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Homepage_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Homepage_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Homepage_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Homepage_0_document_3_desktop.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 16
+          },
+          "misMatchPercentage": "32.01",
+          "analysisTime": 1902
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Homepage_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_components_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_components_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_components_0_document_0_phone.png",
+        "label": "components",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "misMatchPercentage": "35.57",
+          "analysisTime": 733
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_components_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_components_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_components_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_components_0_document_1_tablet.png",
+        "label": "components",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -56
+          },
+          "misMatchPercentage": "25.05",
+          "analysisTime": 1156
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_components_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_components_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_components_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_components_0_document_2_tablet-vertical.png",
+        "label": "components",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "23.79",
+          "analysisTime": 1889
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_components_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_components_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_components_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_components_0_document_3_desktop.png",
+        "label": "components",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com",
+        "referenceUrl": "https://www.richlandlibrary.com/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -16
+          },
+          "misMatchPercentage": "23.92",
+          "analysisTime": 2173
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_components_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_0_phone.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -347
+          },
+          "misMatchPercentage": "7.91",
+          "analysisTime": 314
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Thomas_Harris_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_1_tablet.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -24,
+            "height": -3555
+          },
+          "misMatchPercentage": "4.99",
+          "analysisTime": 1073
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Thomas_Harris_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -6,
+            "height": 0
+          },
+          "misMatchPercentage": "16.29",
+          "analysisTime": 496
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Thomas_Harris_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Search_Thomas_Harris_0_document_3_desktop.png",
+        "label": "Search: Thomas Harris",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog?q=Thomas+Harris&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog?q=Thomas+Harris&page=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -28,
+            "height": 2
+          },
+          "misMatchPercentage": "20.80",
+          "analysisTime": 663
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Thomas_Harris_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1080
+          },
+          "misMatchPercentage": "9.17",
+          "analysisTime": 1207
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -794
+          },
+          "misMatchPercentage": "10.81",
+          "analysisTime": 782
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1010
+          },
+          "misMatchPercentage": "7.41",
+          "analysisTime": 1252
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "label": "Search: Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1583228?return=/catalog?q=where+the+crawdads+sing&page=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -595
+          },
+          "misMatchPercentage": "5.86",
+          "analysisTime": 957
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_Where_the_Crawdads_Sing_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_0_phone.png",
+        "label": "Search: eAudiobook - Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1635789?return=/catalog?q=where%20the%20crawdads%20sing&page=0&TOM=aeb",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1635789?return=/catalog?q=where+the+crawdads+sing&TOM=aeb&page=0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "11.43",
+          "analysisTime": 80
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_1_tablet.png",
+        "label": "Search: eAudiobook - Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1635789?return=/catalog?q=where%20the%20crawdads%20sing&page=0&TOM=aeb",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1635789?return=/catalog?q=where+the+crawdads+sing&TOM=aeb&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "11.07",
+          "analysisTime": 1307
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png",
+        "label": "Search: eAudiobook - Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1635789?return=/catalog?q=where%20the%20crawdads%20sing&page=0&TOM=aeb",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1635789?return=/catalog?q=where+the+crawdads+sing&TOM=aeb&page=0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "11.35",
+          "analysisTime": 1213
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_3_desktop.png",
+        "label": "Search: eAudiobook - Where the Crawdads Sing",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/catalog/detail/1635789?return=/catalog?q=where%20the%20crawdads%20sing&page=0&TOM=aeb",
+        "referenceUrl": "https://www.richlandlibrary.com/catalog/detail/1635789?return=/catalog?q=where+the+crawdads+sing&TOM=aeb&page=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "3.56",
+          "analysisTime": 588
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Search_eAudiobook_-_Where_the_Crawdads_Sing_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Board_of_Trustees_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Board_of_Trustees_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Board_of_Trustees_0_document_0_phone.png",
+        "label": "Board of Trustees",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/board-trustees",
+        "referenceUrl": "https://www.richlandlibrary.com/board-trustees",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -905
+          },
+          "misMatchPercentage": "17.96",
+          "analysisTime": 1017
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Board_of_Trustees_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Board_of_Trustees_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Board_of_Trustees_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Board_of_Trustees_0_document_1_tablet.png",
+        "label": "Board of Trustees",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/board-trustees",
+        "referenceUrl": "https://www.richlandlibrary.com/board-trustees",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -918
+          },
+          "misMatchPercentage": "10.72",
+          "analysisTime": 973
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Board_of_Trustees_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Board_of_Trustees_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Board_of_Trustees_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Board_of_Trustees_0_document_2_tablet-vertical.png",
+        "label": "Board of Trustees",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/board-trustees",
+        "referenceUrl": "https://www.richlandlibrary.com/board-trustees",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -844
+          },
+          "misMatchPercentage": "12.32",
+          "analysisTime": 1059
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Board_of_Trustees_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Board_of_Trustees_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Board_of_Trustees_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Board_of_Trustees_0_document_3_desktop.png",
+        "label": "Board of Trustees",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/board-trustees",
+        "referenceUrl": "https://www.richlandlibrary.com/board-trustees",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1013
+          },
+          "misMatchPercentage": "10.39",
+          "analysisTime": 1071
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Board_of_Trustees_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_List_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_List_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Policies_List_0_document_0_phone.png",
+        "label": "Policies List",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/policies",
+        "referenceUrl": "https://www.richlandlibrary.com/policies",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_List_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_List_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Policies_List_0_document_1_tablet.png",
+        "label": "Policies List",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/policies",
+        "referenceUrl": "https://www.richlandlibrary.com/policies",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_List_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_List_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Policies_List_0_document_2_tablet-vertical.png",
+        "label": "Policies List",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/policies",
+        "referenceUrl": "https://www.richlandlibrary.com/policies",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_List_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_List_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Policies_List_0_document_3_desktop.png",
+        "label": "Policies List",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/policies",
+        "referenceUrl": "https://www.richlandlibrary.com/policies",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Borrowing_Guidelines_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Borrowing_Guidelines_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Borrowing_Guidelines_0_document_0_phone.png",
+        "label": "Policies - Borrowing Guidelines",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/borrowing-guidelines",
+        "referenceUrl": "https://www.richlandlibrary.com/borrowing-guidelines",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -537
+          },
+          "misMatchPercentage": "11.78",
+          "analysisTime": 1169
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Borrowing_Guidelines_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Borrowing_Guidelines_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Borrowing_Guidelines_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Borrowing_Guidelines_0_document_1_tablet.png",
+        "label": "Policies - Borrowing Guidelines",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/borrowing-guidelines",
+        "referenceUrl": "https://www.richlandlibrary.com/borrowing-guidelines",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -293
+          },
+          "misMatchPercentage": "8.54",
+          "analysisTime": 889
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Borrowing_Guidelines_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Borrowing_Guidelines_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Borrowing_Guidelines_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Borrowing_Guidelines_0_document_2_tablet-vertical.png",
+        "label": "Policies - Borrowing Guidelines",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/borrowing-guidelines",
+        "referenceUrl": "https://www.richlandlibrary.com/borrowing-guidelines",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -321
+          },
+          "misMatchPercentage": "8.03",
+          "analysisTime": 990
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Borrowing_Guidelines_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Borrowing_Guidelines_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Borrowing_Guidelines_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Borrowing_Guidelines_0_document_3_desktop.png",
+        "label": "Policies - Borrowing Guidelines",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/borrowing-guidelines",
+        "referenceUrl": "https://www.richlandlibrary.com/borrowing-guidelines",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -265
+          },
+          "misMatchPercentage": "8.46",
+          "analysisTime": 1136
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Borrowing_Guidelines_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Room_Reservations_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Room_Reservations_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Room_Reservations_0_document_0_phone.png",
+        "label": "Policies - Room Reservations",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/room-reservations",
+        "referenceUrl": "https://www.richlandlibrary.com/room-reservations",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -72
+          },
+          "misMatchPercentage": "2.31",
+          "analysisTime": 1162
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Room_Reservations_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Room_Reservations_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Room_Reservations_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Room_Reservations_0_document_1_tablet.png",
+        "label": "Policies - Room Reservations",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/room-reservations",
+        "referenceUrl": "https://www.richlandlibrary.com/room-reservations",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -25
+          },
+          "misMatchPercentage": "2.31",
+          "analysisTime": 1316
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Room_Reservations_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Room_Reservations_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Room_Reservations_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Room_Reservations_0_document_2_tablet-vertical.png",
+        "label": "Policies - Room Reservations",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/room-reservations",
+        "referenceUrl": "https://www.richlandlibrary.com/room-reservations",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -25
+          },
+          "misMatchPercentage": "1.92",
+          "analysisTime": 1059
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Room_Reservations_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Room_Reservations_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Room_Reservations_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Room_Reservations_0_document_3_desktop.png",
+        "label": "Policies - Room Reservations",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/room-reservations",
+        "referenceUrl": "https://www.richlandlibrary.com/room-reservations",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -25
+          },
+          "misMatchPercentage": "2.25",
+          "analysisTime": 714
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Room_Reservations_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Code_of_Conduct_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Code_of_Conduct_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Code_of_Conduct_0_document_0_phone.png",
+        "label": "Policies - Code of Conduct",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/code-conduct-0",
+        "referenceUrl": "https://www.richlandlibrary.com/code-conduct-0",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 78
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Code_of_Conduct_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Code_of_Conduct_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Code_of_Conduct_0_document_1_tablet.png",
+        "label": "Policies - Code of Conduct",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/code-conduct-0",
+        "referenceUrl": "https://www.richlandlibrary.com/code-conduct-0",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.43",
+          "analysisTime": 1077
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Code_of_Conduct_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Code_of_Conduct_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Code_of_Conduct_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Code_of_Conduct_0_document_2_tablet-vertical.png",
+        "label": "Policies - Code of Conduct",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/code-conduct-0",
+        "referenceUrl": "https://www.richlandlibrary.com/code-conduct-0",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.17",
+          "analysisTime": 1349
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Code_of_Conduct_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Policies_-_Code_of_Conduct_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Policies_-_Code_of_Conduct_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Policies_-_Code_of_Conduct_0_document_3_desktop.png",
+        "label": "Policies - Code of Conduct",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/code-conduct-0",
+        "referenceUrl": "https://www.richlandlibrary.com/code-conduct-0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "1.67",
+          "analysisTime": 1217
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Policies_-_Code_of_Conduct_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Suggest_a_Title_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Suggest_a_Title_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Suggest_a_Title_0_document_0_phone.png",
+        "label": "Form - Suggest a Title",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/request-purchase",
+        "referenceUrl": "https://www.richlandlibrary.com/request-purchase",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Suggest_a_Title_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Suggest_a_Title_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Suggest_a_Title_0_document_1_tablet.png",
+        "label": "Form - Suggest a Title",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/request-purchase",
+        "referenceUrl": "https://www.richlandlibrary.com/request-purchase",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 329
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Suggest_a_Title_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Suggest_a_Title_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Suggest_a_Title_0_document_2_tablet-vertical.png",
+        "label": "Form - Suggest a Title",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/request-purchase",
+        "referenceUrl": "https://www.richlandlibrary.com/request-purchase",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "6.89",
+          "analysisTime": 37
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Suggest_a_Title_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Suggest_a_Title_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Suggest_a_Title_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Suggest_a_Title_0_document_3_desktop.png",
+        "label": "Form - Suggest a Title",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/request-purchase",
+        "referenceUrl": "https://www.richlandlibrary.com/request-purchase",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Artist_in_Residence_Application_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Artist_in_Residence_Application_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Artist_in_Residence_Application_0_document_0_phone.png",
+        "label": "Form - Artist in Residence Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/artist-in-residence-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/artist-in-residence-application",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -3823,
+            "height": -34095
+          },
+          "misMatchPercentage": "0.09",
+          "analysisTime": 2914
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Artist_in_Residence_Application_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Artist_in_Residence_Application_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Artist_in_Residence_Application_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Artist_in_Residence_Application_0_document_1_tablet.png",
+        "label": "Form - Artist in Residence Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/artist-in-residence-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/artist-in-residence-application",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -2203,
+            "height": -25027
+          },
+          "misMatchPercentage": "0.98",
+          "analysisTime": 1631
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Artist_in_Residence_Application_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Artist_in_Residence_Application_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Artist_in_Residence_Application_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Artist_in_Residence_Application_0_document_2_tablet-vertical.png",
+        "label": "Form - Artist in Residence Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/artist-in-residence-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/artist-in-residence-application",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -3384,
+            "height": -33780
+          },
+          "misMatchPercentage": "0.21",
+          "analysisTime": 2924
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Artist_in_Residence_Application_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Artist_in_Residence_Application_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Artist_in_Residence_Application_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Artist_in_Residence_Application_0_document_3_desktop.png",
+        "label": "Form - Artist in Residence Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/artist-in-residence-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/artist-in-residence-application",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -968,
+            "height": -2376
+          },
+          "misMatchPercentage": "1.36",
+          "analysisTime": 716
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Artist_in_Residence_Application_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Become_a_Beta_Tester_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Become_a_Beta_Tester_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Become_a_Beta_Tester_0_document_0_phone.png",
+        "label": "Form - Become a Beta Tester",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/become-a-beta-tester",
+        "referenceUrl": "https://www.richlandlibrary.com/form/become-a-beta-tester",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -3648,
+            "height": -13133
+          },
+          "misMatchPercentage": "0.13",
+          "analysisTime": 1145
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Become_a_Beta_Tester_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Become_a_Beta_Tester_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Become_a_Beta_Tester_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Become_a_Beta_Tester_0_document_1_tablet.png",
+        "label": "Form - Become a Beta Tester",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/become-a-beta-tester",
+        "referenceUrl": "https://www.richlandlibrary.com/form/become-a-beta-tester",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Become_a_Beta_Tester_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Become_a_Beta_Tester_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Become_a_Beta_Tester_0_document_2_tablet-vertical.png",
+        "label": "Form - Become a Beta Tester",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/become-a-beta-tester",
+        "referenceUrl": "https://www.richlandlibrary.com/form/become-a-beta-tester",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Become_a_Beta_Tester_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Become_a_Beta_Tester_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Become_a_Beta_Tester_0_document_3_desktop.png",
+        "label": "Form - Become a Beta Tester",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/become-a-beta-tester",
+        "referenceUrl": "https://www.richlandlibrary.com/form/become-a-beta-tester",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Learning_Coach_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Learning_Coach_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Learning_Coach_0_document_0_phone.png",
+        "label": "Form - Book a Learning Coach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-learning-coach",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-learning-coach",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Learning_Coach_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Learning_Coach_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Learning_Coach_0_document_1_tablet.png",
+        "label": "Form - Book a Learning Coach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-learning-coach",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-learning-coach",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Learning_Coach_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Learning_Coach_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Learning_Coach_0_document_2_tablet-vertical.png",
+        "label": "Form - Book a Learning Coach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-learning-coach",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-learning-coach",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Learning_Coach_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Learning_Coach_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Learning_Coach_0_document_3_desktop.png",
+        "label": "Form - Book a Learning Coach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-learning-coach",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-learning-coach",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Tour_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Tour_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Tour_0_document_0_phone.png",
+        "label": "Form - Book a Tour",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-tour",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-tour",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Tour_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Tour_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Tour_0_document_1_tablet.png",
+        "label": "Form - Book a Tour",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-tour",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-tour",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Tour_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Tour_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Tour_0_document_2_tablet-vertical.png",
+        "label": "Form - Book a Tour",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-tour",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-tour",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Book_a_Tour_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Book_a_Tour_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Book_a_Tour_0_document_3_desktop.png",
+        "label": "Form - Book a Tour",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/book-tour",
+        "referenceUrl": "https://www.richlandlibrary.com/form/book-tour",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Change_My_Information_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Change_My_Information_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Change_My_Information_0_document_0_phone.png",
+        "label": "Form - Change My Information",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/change-info",
+        "referenceUrl": "https://www.richlandlibrary.com/form/change-info",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.12",
+          "analysisTime": 46
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Change_My_Information_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Change_My_Information_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Change_My_Information_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Change_My_Information_0_document_1_tablet.png",
+        "label": "Form - Change My Information",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/change-info",
+        "referenceUrl": "https://www.richlandlibrary.com/form/change-info",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.04",
+          "analysisTime": 734
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Change_My_Information_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Change_My_Information_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Change_My_Information_0_document_2_tablet-vertical.png",
+        "label": "Form - Change My Information",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/change-info",
+        "referenceUrl": "https://www.richlandlibrary.com/form/change-info",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.06",
+          "analysisTime": 255
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Change_My_Information_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Change_My_Information_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Change_My_Information_0_document_3_desktop.png",
+        "label": "Form - Change My Information",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/change-info",
+        "referenceUrl": "https://www.richlandlibrary.com/form/change-info",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 412
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Contact_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Contact_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Contact_0_document_0_phone.png",
+        "label": "Form - Contact",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/contact",
+        "referenceUrl": "https://www.richlandlibrary.com/form/contact",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Contact_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Contact_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Contact_0_document_1_tablet.png",
+        "label": "Form - Contact",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/contact",
+        "referenceUrl": "https://www.richlandlibrary.com/form/contact",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Contact_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Contact_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Contact_0_document_2_tablet-vertical.png",
+        "label": "Form - Contact",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/contact",
+        "referenceUrl": "https://www.richlandlibrary.com/form/contact",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Contact_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Contact_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Contact_0_document_3_desktop.png",
+        "label": "Form - Contact",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/contact",
+        "referenceUrl": "https://www.richlandlibrary.com/form/contact",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Exhibition_Gallery_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Exhibition_Gallery_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Exhibition_Gallery_0_document_0_phone.png",
+        "label": "Form - Exhibition Gallery",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/exhibiting-gallery",
+        "referenceUrl": "https://www.richlandlibrary.com/form/exhibiting-gallery",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Exhibition_Gallery_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Exhibition_Gallery_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Exhibition_Gallery_0_document_1_tablet.png",
+        "label": "Form - Exhibition Gallery",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/exhibiting-gallery",
+        "referenceUrl": "https://www.richlandlibrary.com/form/exhibiting-gallery",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -5549,
+            "height": -33368
+          },
+          "misMatchPercentage": "0.08",
+          "analysisTime": 3607
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Exhibition_Gallery_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Exhibition_Gallery_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Exhibition_Gallery_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Exhibition_Gallery_0_document_2_tablet-vertical.png",
+        "label": "Form - Exhibition Gallery",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/exhibiting-gallery",
+        "referenceUrl": "https://www.richlandlibrary.com/form/exhibiting-gallery",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Exhibition_Gallery_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Exhibition_Gallery_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Exhibition_Gallery_0_document_3_desktop.png",
+        "label": "Form - Exhibition Gallery",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/exhibiting-gallery",
+        "referenceUrl": "https://www.richlandlibrary.com/form/exhibiting-gallery",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Kids_in_Print_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Kids_in_Print_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Kids_in_Print_0_document_0_phone.png",
+        "label": "Form - Kids in Print",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/kids-print",
+        "referenceUrl": "https://www.richlandlibrary.com/form/kids-print",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Kids_in_Print_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Kids_in_Print_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Kids_in_Print_0_document_1_tablet.png",
+        "label": "Form - Kids in Print",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/kids-print",
+        "referenceUrl": "https://www.richlandlibrary.com/form/kids-print",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Kids_in_Print_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Kids_in_Print_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Kids_in_Print_0_document_2_tablet-vertical.png",
+        "label": "Form - Kids in Print",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/kids-print",
+        "referenceUrl": "https://www.richlandlibrary.com/form/kids-print",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Kids_in_Print_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Kids_in_Print_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Kids_in_Print_0_document_3_desktop.png",
+        "label": "Form - Kids in Print",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/kids-print",
+        "referenceUrl": "https://www.richlandlibrary.com/form/kids-print",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Outreach_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Outreach_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Outreach_0_document_0_phone.png",
+        "label": "Form - Outreach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Outreach_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Outreach_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Outreach_0_document_1_tablet.png",
+        "label": "Form - Outreach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Outreach_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Outreach_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Outreach_0_document_2_tablet-vertical.png",
+        "label": "Form - Outreach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Outreach_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Outreach_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Outreach_0_document_3_desktop.png",
+        "label": "Form - Outreach",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Renew_Lirbary_Card_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Renew_Lirbary_Card_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Renew_Lirbary_Card_0_document_0_phone.png",
+        "label": "Form - Renew Lirbary Card",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/renew-library-card",
+        "referenceUrl": "https://www.richlandlibrary.com/form/renew-library-card",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.06",
+          "analysisTime": 38
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Renew_Lirbary_Card_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Renew_Lirbary_Card_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Renew_Lirbary_Card_0_document_1_tablet.png",
+        "label": "Form - Renew Lirbary Card",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/renew-library-card",
+        "referenceUrl": "https://www.richlandlibrary.com/form/renew-library-card",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 264
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Renew_Lirbary_Card_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Renew_Lirbary_Card_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Renew_Lirbary_Card_0_document_2_tablet-vertical.png",
+        "label": "Form - Renew Lirbary Card",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/renew-library-card",
+        "referenceUrl": "https://www.richlandlibrary.com/form/renew-library-card",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 736
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Renew_Lirbary_Card_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Renew_Lirbary_Card_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Renew_Lirbary_Card_0_document_3_desktop.png",
+        "label": "Form - Renew Lirbary Card",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/renew-library-card",
+        "referenceUrl": "https://www.richlandlibrary.com/form/renew-library-card",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 487
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Copies_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Copies_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Copies_0_document_0_phone.png",
+        "label": "Form - Request Copies",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/request-copies",
+        "referenceUrl": "https://www.richlandlibrary.com/form/request-copies",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Copies_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Copies_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Copies_0_document_1_tablet.png",
+        "label": "Form - Request Copies",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/request-copies",
+        "referenceUrl": "https://www.richlandlibrary.com/form/request-copies",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Copies_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Copies_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Copies_0_document_2_tablet-vertical.png",
+        "label": "Form - Request Copies",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/request-copies",
+        "referenceUrl": "https://www.richlandlibrary.com/form/request-copies",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Copies_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Copies_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Copies_0_document_3_desktop.png",
+        "label": "Form - Request Copies",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/request-copies",
+        "referenceUrl": "https://www.richlandlibrary.com/form/request-copies",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Social_Worker_Assistance_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Social_Worker_Assistance_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Social_Worker_Assistance_0_document_0_phone.png",
+        "label": "Form - Social Worker Assistance",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/social-worker-assistance",
+        "referenceUrl": "https://www.richlandlibrary.com/form/social-worker-assistance",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Social_Worker_Assistance_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Social_Worker_Assistance_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Social_Worker_Assistance_0_document_1_tablet.png",
+        "label": "Form - Social Worker Assistance",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/social-worker-assistance",
+        "referenceUrl": "https://www.richlandlibrary.com/form/social-worker-assistance",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Social_Worker_Assistance_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Social_Worker_Assistance_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Social_Worker_Assistance_0_document_2_tablet-vertical.png",
+        "label": "Form - Social Worker Assistance",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/social-worker-assistance",
+        "referenceUrl": "https://www.richlandlibrary.com/form/social-worker-assistance",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Social_Worker_Assistance_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Social_Worker_Assistance_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Social_Worker_Assistance_0_document_3_desktop.png",
+        "label": "Form - Social Worker Assistance",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/social-worker-assistance",
+        "referenceUrl": "https://www.richlandlibrary.com/form/social-worker-assistance",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Spanish_Library_Card_Application_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Spanish_Library_Card_Application_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Spanish_Library_Card_Application_0_document_0_phone.png",
+        "label": "Form - Spanish Library Card Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/solicitud-tarjeta-biblioteca",
+        "referenceUrl": "https://www.richlandlibrary.com/form/solicitud-tarjeta-biblioteca",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.07",
+          "analysisTime": 466
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Spanish_Library_Card_Application_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Spanish_Library_Card_Application_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Spanish_Library_Card_Application_0_document_1_tablet.png",
+        "label": "Form - Spanish Library Card Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/solicitud-tarjeta-biblioteca",
+        "referenceUrl": "https://www.richlandlibrary.com/form/solicitud-tarjeta-biblioteca",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.02",
+          "analysisTime": 643
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Spanish_Library_Card_Application_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Spanish_Library_Card_Application_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Spanish_Library_Card_Application_0_document_2_tablet-vertical.png",
+        "label": "Form - Spanish Library Card Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/solicitud-tarjeta-biblioteca",
+        "referenceUrl": "https://www.richlandlibrary.com/form/solicitud-tarjeta-biblioteca",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.02",
+          "analysisTime": 387
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Spanish_Library_Card_Application_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Spanish_Library_Card_Application_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Spanish_Library_Card_Application_0_document_3_desktop.png",
+        "label": "Form - Spanish Library Card Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/solicitud-tarjeta-biblioteca",
+        "referenceUrl": "https://www.richlandlibrary.com/form/solicitud-tarjeta-biblioteca",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 354
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Access_Mag_Submissions_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Access_Mag_Submissions_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Access_Mag_Submissions_0_document_0_phone.png",
+        "label": "Form - Access Mag Submissions",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submissions",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submissions",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.06",
+          "analysisTime": 194
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Access_Mag_Submissions_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Access_Mag_Submissions_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Access_Mag_Submissions_0_document_1_tablet.png",
+        "label": "Form - Access Mag Submissions",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submissions",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submissions",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.02",
+          "analysisTime": 405
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Access_Mag_Submissions_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Access_Mag_Submissions_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Access_Mag_Submissions_0_document_2_tablet-vertical.png",
+        "label": "Form - Access Mag Submissions",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submissions",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submissions",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 589
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Access_Mag_Submissions_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Access_Mag_Submissions_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Access_Mag_Submissions_0_document_3_desktop.png",
+        "label": "Form - Access Mag Submissions",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submissions",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submissions",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.02",
+          "analysisTime": 249
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Submit_a_Club_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Submit_a_Club_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Submit_a_Club_0_document_0_phone.png",
+        "label": "Form - Submit a Club",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submit-club-org",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submit-club-org",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.13",
+          "analysisTime": 487
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Submit_a_Club_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Submit_a_Club_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Submit_a_Club_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Submit_a_Club_0_document_1_tablet.png",
+        "label": "Form - Submit a Club",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submit-club-org",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submit-club-org",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.04",
+          "analysisTime": 450
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Submit_a_Club_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Submit_a_Club_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Submit_a_Club_0_document_2_tablet-vertical.png",
+        "label": "Form - Submit a Club",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submit-club-org",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submit-club-org",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.07",
+          "analysisTime": 307
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Submit_a_Club_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Submit_a_Club_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Submit_a_Club_0_document_3_desktop.png",
+        "label": "Form - Submit a Club",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/submit-club-org",
+        "referenceUrl": "https://www.richlandlibrary.com/form/submit-club-org",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 405
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Summer_Volunteer_Application_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Summer_Volunteer_Application_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Summer_Volunteer_Application_0_document_0_phone.png",
+        "label": "Form - Summer Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/summer-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/summer-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 512
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Summer_Volunteer_Application_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Summer_Volunteer_Application_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Summer_Volunteer_Application_0_document_1_tablet.png",
+        "label": "Form - Summer Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/summer-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/summer-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Summer_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Summer_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Summer_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "label": "Form - Summer Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/summer-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/summer-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Summer_Volunteer_Application_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Summer_Volunteer_Application_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Summer_Volunteer_Application_0_document_3_desktop.png",
+        "label": "Form - Summer Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/summer-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/summer-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Application_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Application_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Application_0_document_0_phone.png",
+        "label": "Form - Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/volunteer-application",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Application_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Application_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Application_0_document_1_tablet.png",
+        "label": "Form - Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Application_0_document_2_tablet-vertical.png",
+        "label": "Form - Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Application_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Application_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Application_0_document_3_desktop.png",
+        "label": "Form - Volunteer Application",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/volunteer-application",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Teens_Kids_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Teens_Kids_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Teens_Kids_0_document_0_phone.png",
+        "label": "Form - Volunteer Teens Kids",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/teens-kids-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/teens-kids-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Teens_Kids_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Teens_Kids_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Teens_Kids_0_document_1_tablet.png",
+        "label": "Form - Volunteer Teens Kids",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/teens-kids-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/teens-kids-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Teens_Kids_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Teens_Kids_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Teens_Kids_0_document_2_tablet-vertical.png",
+        "label": "Form - Volunteer Teens Kids",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/teens-kids-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/teens-kids-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Volunteer_Teens_Kids_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Volunteer_Teens_Kids_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Volunteer_Teens_Kids_0_document_3_desktop.png",
+        "label": "Form - Volunteer Teens Kids",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/teens-kids-volunteer-application",
+        "referenceUrl": "https://www.richlandlibrary.com/form/teens-kids-volunteer-application",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Invite_Us_to_Your_Event_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Invite_Us_to_Your_Event_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Invite_Us_to_Your_Event_0_document_0_phone.png",
+        "label": "Form - Invite Us to Your Event",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/services/invite-us-your-event",
+        "referenceUrl": "https://www.richlandlibrary.com/services/invite-us-your-event",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Invite_Us_to_Your_Event_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Invite_Us_to_Your_Event_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Invite_Us_to_Your_Event_0_document_1_tablet.png",
+        "label": "Form - Invite Us to Your Event",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/services/invite-us-your-event",
+        "referenceUrl": "https://www.richlandlibrary.com/services/invite-us-your-event",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Invite_Us_to_Your_Event_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Invite_Us_to_Your_Event_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Invite_Us_to_Your_Event_0_document_2_tablet-vertical.png",
+        "label": "Form - Invite Us to Your Event",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/services/invite-us-your-event",
+        "referenceUrl": "https://www.richlandlibrary.com/services/invite-us-your-event",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Invite_Us_to_Your_Event_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Invite_Us_to_Your_Event_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Invite_Us_to_Your_Event_0_document_3_desktop.png",
+        "label": "Form - Invite Us to Your Event",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/services/invite-us-your-event",
+        "referenceUrl": "https://www.richlandlibrary.com/services/invite-us-your-event",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Polaris_Auto_Register_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Polaris_Auto_Register_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Polaris_Auto_Register_0_document_0_phone.png",
+        "label": "Form - Polaris Auto Register",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/polaris-auto-register",
+        "referenceUrl": "https://www.richlandlibrary.com/polaris-auto-register",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Polaris_Auto_Register_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Polaris_Auto_Register_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Polaris_Auto_Register_0_document_1_tablet.png",
+        "label": "Form - Polaris Auto Register",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/polaris-auto-register",
+        "referenceUrl": "https://www.richlandlibrary.com/polaris-auto-register",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Polaris_Auto_Register_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Polaris_Auto_Register_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Polaris_Auto_Register_0_document_2_tablet-vertical.png",
+        "label": "Form - Polaris Auto Register",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/polaris-auto-register",
+        "referenceUrl": "https://www.richlandlibrary.com/polaris-auto-register",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Polaris_Auto_Register_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Polaris_Auto_Register_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Polaris_Auto_Register_0_document_3_desktop.png",
+        "label": "Form - Polaris Auto Register",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/polaris-auto-register",
+        "referenceUrl": "https://www.richlandlibrary.com/polaris-auto-register",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Entrepreneur_in_Residence_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Entrepreneur_in_Residence_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Entrepreneur_in_Residence_0_document_0_phone.png",
+        "label": "Form - Entrepreneur in Residence",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 294
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Entrepreneur_in_Residence_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Entrepreneur_in_Residence_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Entrepreneur_in_Residence_0_document_1_tablet.png",
+        "label": "Form - Entrepreneur in Residence",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 250
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Entrepreneur_in_Residence_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Entrepreneur_in_Residence_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Entrepreneur_in_Residence_0_document_2_tablet-vertical.png",
+        "label": "Form - Entrepreneur in Residence",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 46
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Entrepreneur_in_Residence_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Entrepreneur_in_Residence_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Entrepreneur_in_Residence_0_document_3_desktop.png",
+        "label": "Form - Entrepreneur in Residence",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/entrepreneur_in_residence",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Event_Filtering_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Event_Filtering_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Event_Filtering_0_document_0_phone.png",
+        "label": "Form - Event Filtering",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18310/manage/events",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18310/manage/events",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 62
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Event_Filtering_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Event_Filtering_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Event_Filtering_0_document_1_tablet.png",
+        "label": "Form - Event Filtering",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18310/manage/events",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18310/manage/events",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Event_Filtering_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Event_Filtering_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Event_Filtering_0_document_2_tablet-vertical.png",
+        "label": "Form - Event Filtering",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18310/manage/events",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18310/manage/events",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Event_Filtering_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Event_Filtering_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Event_Filtering_0_document_3_desktop.png",
+        "label": "Form - Event Filtering",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18310/manage/events",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18310/manage/events",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "5.91",
+          "analysisTime": 45
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Form_-_Event_Filtering_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Crafterpreneurship_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Crafterpreneurship_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Crafterpreneurship_0_document_0_phone.png",
+        "label": "Form - Crafterpreneurship",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Crafterpreneurship_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Crafterpreneurship_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Crafterpreneurship_0_document_1_tablet.png",
+        "label": "Form - Crafterpreneurship",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Crafterpreneurship_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Crafterpreneurship_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Crafterpreneurship_0_document_2_tablet-vertical.png",
+        "label": "Form - Crafterpreneurship",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Crafterpreneurship_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Crafterpreneurship_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Crafterpreneurship_0_document_3_desktop.png",
+        "label": "Form - Crafterpreneurship",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_student",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Etsy_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Etsy_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Etsy_0_document_0_phone.png",
+        "label": "Form - Etsy",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Etsy_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Etsy_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Etsy_0_document_1_tablet.png",
+        "label": "Form - Etsy",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Etsy_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Etsy_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Etsy_0_document_2_tablet-vertical.png",
+        "label": "Form - Etsy",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 176
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Etsy_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Etsy_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Etsy_0_document_3_desktop.png",
+        "label": "Form - Etsy",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/etsy_crafterpreneurship_teacher",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 207
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_0_phone.png",
+        "label": "Form - Library Card Registration - Non Resident",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_1_tablet.png",
+        "label": "Form - Library Card Registration - Non Resident",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 218
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_2_tablet-vertical.png",
+        "label": "Form - Library Card Registration - Non Resident",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Library_Card_Registration_-_Non_Resident_0_document_3_desktop.png",
+        "label": "Form - Library Card Registration - Non Resident",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/library_card_reg_non_resident",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Program_Proposal_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Program_Proposal_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Program_Proposal_0_document_0_phone.png",
+        "label": "Form - Program Proposal",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Program_Proposal_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Program_Proposal_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Program_Proposal_0_document_1_tablet.png",
+        "label": "Form - Program Proposal",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Program_Proposal_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Program_Proposal_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Program_Proposal_0_document_2_tablet-vertical.png",
+        "label": "Form - Program Proposal",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Program_Proposal_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Program_Proposal_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Program_Proposal_0_document_3_desktop.png",
+        "label": "Form - Program Proposal",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/form/outreach-event-request-form",
+        "referenceUrl": "https://www.richlandlibrary.com/form/outreach-event-request-form",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Obit_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Obit_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Obit_0_document_0_phone.png",
+        "label": "Form - Request Obit",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/request_an_obituary",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/request_an_obituary",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.01",
+          "analysisTime": 243
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Obit_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Obit_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Obit_0_document_1_tablet.png",
+        "label": "Form - Request Obit",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/request_an_obituary",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/request_an_obituary",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 114
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Obit_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Obit_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Obit_0_document_2_tablet-vertical.png",
+        "label": "Form - Request Obit",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/request_an_obituary",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/request_an_obituary",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 150
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Form_-_Request_Obit_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Form_-_Request_Obit_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Form_-_Request_Obit_0_document_3_desktop.png",
+        "label": "Form - Request Obit",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/login?destination=/webform/request_an_obituary",
+        "referenceUrl": "https://www.richlandlibrary.com/user/login?destination=/webform/request_an_obituary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Checked_Out_Page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_0_phone.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/checked-out",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Checked_Out_Page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_1_tablet.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/checked-out",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -88
+          },
+          "misMatchPercentage": "12.60",
+          "analysisTime": 276
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Checked_Out_Page_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/checked-out",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "6.89",
+          "analysisTime": 159
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Checked_Out_Page_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Checked_Out_Page_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_3_desktop.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/checked-out",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 143
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Holds_Page_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Holds_Page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Holds_Page_0_document_0_phone.png",
+        "label": "Holds Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/holds",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/holds",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -3
+          },
+          "misMatchPercentage": "24.37",
+          "analysisTime": 53
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Holds_Page_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Holds_Page_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Holds_Page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Holds_Page_0_document_1_tablet.png",
+        "label": "Holds Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/holds",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/holds",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -88
+          },
+          "misMatchPercentage": "12.60",
+          "analysisTime": 138
+        },
+        "diffImage": "../bitmaps_test/20200113-121317/failed_diff_richland_Holds_Page_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Holds_Page_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Holds_Page_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Holds_Page_0_document_2_tablet-vertical.png",
+        "label": "Holds Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/holds",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/holds",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Holds_Page_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20200113-121317/richland_Holds_Page_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Holds_Page_0_document_3_desktop.png",
+        "label": "Holds Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://localvm.richland-site.com/user/18998/holds",
+        "referenceUrl": "https://www.richlandlibrary.com/user/18998/holds",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "richland"
+}

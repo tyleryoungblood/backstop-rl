@@ -1,0 +1,106 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191030-155702/richland_Checked_Out_Page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_0_phone.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/user/18998/checked-out",
+        "referenceUrl": "https://richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -99
+          },
+          "misMatchPercentage": "0.74",
+          "analysisTime": 20
+        },
+        "diffImage": "../bitmaps_test/20191030-155702/failed_diff_richland_Checked_Out_Page_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20191030-155702/richland_Checked_Out_Page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_1_tablet.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/user/18998/checked-out",
+        "referenceUrl": "https://richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -87
+          },
+          "misMatchPercentage": "5.27",
+          "analysisTime": 37
+        },
+        "diffImage": "../bitmaps_test/20191030-155702/failed_diff_richland_Checked_Out_Page_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "test": "../bitmaps_test/20191030-155702/richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_2_tablet-vertical.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/user/18998/checked-out",
+        "referenceUrl": "https://richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "tablet-vertical",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.20",
+          "analysisTime": 30
+        },
+        "diffImage": "../bitmaps_test/20191030-155702/failed_diff_richland_Checked_Out_Page_0_document_2_tablet-vertical.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/richland_Checked_Out_Page_0_document_3_desktop.png",
+        "test": "../bitmaps_test/20191030-155702/richland_Checked_Out_Page_0_document_3_desktop.png",
+        "selector": "document",
+        "fileName": "richland_Checked_Out_Page_0_document_3_desktop.png",
+        "label": "Checked Out Page",
+        "misMatchThreshold": 0.1,
+        "url": "https://dev-richland-site.pantheonsite.io/user/18998/checked-out",
+        "referenceUrl": "https://richlandlibrary.com/user/18998/checked-out",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.11",
+          "analysisTime": 39
+        },
+        "diffImage": "../bitmaps_test/20191030-155702/failed_diff_richland_Checked_Out_Page_0_document_3_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "richland"
+}
